@@ -16,6 +16,7 @@
             {% trans %}**bold** or __bold__{% endtrans %}
         </li>
         {% endif %}
+	{#
         <li>
             <b>{% trans %}link{% endtrans %}</b>:[{% trans %}text{% endtrans %}](http://example.com/ "{% trans %}title{% endtrans %}")
 
@@ -32,6 +33,12 @@
         <li>
         {% trans %}basic HTML tags are also supported{% endtrans %}
         </li>
+	#}
+	{% if settings.ENABLE_MATHJAX %}
+	<li>{% trans %}Formulas:{% endtrans %} <pre>$x+y^3$</pre> $x+y^3$
+	<li>{% trans %}Displayed formulas:{% endtrans %} <pre>$$\sum_{k=1}^n\frac{1}{k^2}$$</pre> 
+	  $$\sum_{k=1}^n \frac{1}{k^2}$$
+	{% endif %}
     </ul>
     <p class='info-box-follow-up-links'>
 <!-- will be change to a popup windows

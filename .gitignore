@@ -9,6 +9,7 @@ rebuild-locales.pl
 cache/??
 run
 *.wsgi
+wsgi.py
 nbproject
 settings_local.py
 settings.py

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-27 06:49+0200\n"
+"POT-Creation-Date: 2014-09-27 09:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,9 +46,9 @@ msgstr "Paese"
 
 #: forms.py:174
 msgid "Country field is required"
-msgstr "Il campo Paese e' obbligatorio"
+msgstr "Il campo Paese è obbligatorio"
 
-#: Forms.py:204
+#: forms.py:204
 #, python-format
 msgid "must be > %d word"
 msgid_plural "must be > %d words"
@@ -66,8 +66,8 @@ msgstr[1] "deve essere < %d parole"
 msgid "minor edit (don't send alerts)"
 msgstr "modifica minore (non inviare avvisi)"
 
-#: forms.py:271 templates/widgets/markdown_help.html:20
-#: templates/widgets/markdown_help.html:24
+#: forms.py:271 templates/widgets/markdown_help.html:21
+#: templates/widgets/markdown_help.html:25
 msgid "title"
 msgstr "titolo"
 
@@ -131,7 +131,11 @@ msgid_plural ""
 "Tags are short keywords, with no spaces within. Up to %(max_tags)d tags can "
 "be used."
 msgstr[0] ""
+"I tag sono parole chiave che servono per classificare gli esercizi. Si puo' "
+"usare al massimo %(max_tags)d tag."
 msgstr[1] ""
+"I tag sono parole chiave che servono per classificare gli esercizi. Si "
+"possono usare al massimo %(max_tags)d tag."
 
 #: forms.py:467
 #, python-format
@@ -148,6 +152,8 @@ msgstr ""
 #: forms.py:503
 msgid "community wiki (karma is not awarded & many others can edit wiki post)"
 msgstr ""
+"è una wiki per la comunità (Non si guadagna reputazione ma molti altri "
+"potranno modificare il testo)"
 
 #: forms.py:519
 msgid "update summary:"
@@ -389,12 +395,12 @@ msgid "Your post at %(site_name)s is now published"
 msgstr ""
 
 #: urls.py:47
-msgid "problems"
-msgstr ""
+msgid "exercises"
+msgstr "esercizi"
 
 #: urls.py:52
-msgid "problem"
-msgstr ""
+msgid "exercise"
+msgstr "esercizio"
 
 #: urls.py:79
 msgid "tags/"
@@ -2665,7 +2671,7 @@ msgstr ""
 
 #: conf/words.py:32 conf/words.py:33 conf/words.py:485 conf/words.py:486
 msgid "Please enter your question"
-msgstr ""
+msgstr "Scrivi un breve titolo che descriva l'esercizio"
 
 #: conf/words.py:41 conf/words.py:42
 msgid "Ask the Group"
@@ -2834,11 +2840,11 @@ msgstr "risposta"
 
 #: conf/words.py:309 conf/words.py:310
 msgid "Question voted up"
-msgstr "La domanda e' stata votata"
+msgstr "La domanda è stata votata"
 
 #: conf/words.py:318 conf/words.py:319
 msgid "Answer voted up"
-msgstr "La risposta e' stata votata"
+msgstr "La risposta è stata votata"
 
 #: conf/words.py:327 conf/words.py:328
 msgid "upvoted answer"
@@ -2898,7 +2904,7 @@ msgstr ""
 
 #: conf/words.py:464 conf/words.py:465
 msgid "Please ask your question here"
-msgstr ""
+msgstr "Scrivi il testo dell'esercizio"
 
 #: conf/words.py:474
 msgid "Sorry, this question has been deleted and is no longer accessible"
@@ -3070,7 +3076,7 @@ msgstr ""
 
 #: conf/words.py:837 conf/words.py:838
 msgid "Login/Signup to Answer"
-msgstr ""
+msgstr "Fai il login/registrati per rispondere"
 
 #: conf/words.py:846 conf/words.py:847
 msgid "Your Answer"
@@ -3531,7 +3537,7 @@ msgstr ""
 
 #: const/message_keys.py:22
 msgid "by activity"
-msgstr "per attivita'"
+msgstr "per attività"
 
 #: const/message_keys.py:23
 msgid "click to see the most recently updated questions"
@@ -4824,7 +4830,7 @@ msgstr ""
 #: templates/question/javascript.html:103
 #: templates/question/javascript.html:106 templates/widgets/edit_post.html:73
 msgid "hide preview"
-msgstr ""
+msgstr "nascondi l'anteprima"
 
 #: templates/answer_edit.html:93 templates/ask.html:63
 #: templates/question_edit.html:113 templates/question/javascript.html:106
@@ -5501,8 +5507,8 @@ msgid "%(seen)s flagged posts"
 msgstr ""
 
 #: templates/main_page.html:14
-msgid "Problems"
-msgstr ""
+msgid "Exercises"
+msgstr "Esercizi"
 
 #: templates/question.html:272
 msgid "see more comments"
@@ -5514,7 +5520,7 @@ msgstr ""
 
 #: templates/question.html:298 templates/widgets/ask_form.html:69
 msgid "Login/Signup to Post"
-msgstr ""
+msgstr "Fai il login/registrati per inviare"
 
 #: templates/question_edit.html:23
 msgid "Details"
@@ -6602,7 +6608,7 @@ msgid "permanent link"
 msgstr ""
 
 #: templates/question/answer_controls.html:57
-#: templates/widgets/markdown_help.html:20
+#: templates/widgets/markdown_help.html:21
 msgid "link"
 msgstr ""
 
@@ -7196,7 +7202,7 @@ msgstr ""
 
 #: templates/widgets/ask_form.html:26
 msgid "Add details"
-msgstr ""
+msgstr "Inserisci il testo dell'esercizio"
 
 #: templates/widgets/ask_form.html:59
 msgid "Select language"
@@ -7212,7 +7218,7 @@ msgstr ""
 
 #: templates/widgets/edit_post.html:42 templates/widgets/edit_post.html:47
 msgid "tags:"
-msgstr ""
+msgstr "tag:"
 
 #: templates/widgets/edit_post.html:43
 msgid "(required)"
@@ -7319,42 +7325,50 @@ msgstr ""
 
 #: templates/widgets/markdown_help.html:2
 msgid "Markdown basics"
-msgstr ""
+msgstr "Formattazione di base (markdown)"
 
 #: templates/widgets/markdown_help.html:6
 msgid "*italic*"
-msgstr ""
+msgstr "*corsivo*"
 
 #: templates/widgets/markdown_help.html:9
 msgid "**bold**"
-msgstr ""
+msgstr "**grassetto**"
 
 #: templates/widgets/markdown_help.html:13
 msgid "*italic* or _italic_"
-msgstr ""
+msgstr "*corsivo* oppure _corsivo_"
 
 #: templates/widgets/markdown_help.html:16
 msgid "**bold** or __bold__"
-msgstr ""
+msgstr "**grassetto** oppure __grassetto__"
 
-#: templates/widgets/markdown_help.html:20
-#: templates/widgets/markdown_help.html:24
+#: templates/widgets/markdown_help.html:21
+#: templates/widgets/markdown_help.html:25
 msgid "text"
-msgstr ""
+msgstr "testo"
 
-#: templates/widgets/markdown_help.html:24
+#: templates/widgets/markdown_help.html:25
 msgid "image"
 msgstr ""
 
-#: templates/widgets/markdown_help.html:28
+#: templates/widgets/markdown_help.html:29
 msgid "numbered list:"
 msgstr ""
 
-#: templates/widgets/markdown_help.html:33
+#: templates/widgets/markdown_help.html:34
 msgid "basic HTML tags are also supported"
 msgstr ""
 
 #: templates/widgets/markdown_help.html:38
+msgid "Formulas:"
+msgstr "Formule:"
+
+#: templates/widgets/markdown_help.html:39
+msgid "Displayed formulas:"
+msgstr "Formule centrate:"
+
+#: templates/widgets/markdown_help.html:45
 msgid "learn more about Markdown"
 msgstr ""
 
@@ -7375,6 +7389,8 @@ msgid ""
 "since you are not logged in right now, you will be asked to sign in or "
 "register after making your post"
 msgstr ""
+"visto che non ti sei autenticato, ti verrà chiesto di fare il login o di "
+"registrarti dopo che avrai completato il testo"
 
 #: templates/widgets/question_edit_tips.html:11
 #, python-format
@@ -7383,6 +7399,10 @@ msgid ""
 "verify your email, please see <a href='%(email_validation_faq_url)s'>more "
 "details here</a>. You can submit your post now and validate email after that."
 msgstr ""
+"Il tuo email, %(email)s non è stato ancora validato. Per inserire un "
+"messaggio devi verificare il tuo email. Maggiori dettagli <a "
+"href='%(email_validation_faq_url)s'>qui</a>. Puoi comunque inviare il tuo "
+"messaggio ora e validare l'email successivamente."
 
 #: templates/widgets/question_summary.html:12
 msgid "view"

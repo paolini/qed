@@ -44,12 +44,12 @@ PREFIX = getattr(settings, 'ASKBOT_SERVICE_URL_PREFIX', '')
 MAIN_PAGE_BASE_URL = getattr(
                         settings, 
                         'ASKBOT_MAIN_PAGE_BASE_URL',
-                        _('questions')
+                        _('exercises')
                     ).strip('/') + '/'
 QUESTION_PAGE_BASE_URL = getattr(
                         settings,
                         'ASKBOT_QUESTION_PAGE_BASE_URL',
-                        _('question')
+                        _('exercise')
                     ).strip('/') + '/'
 
 APP_PATH = os.path.dirname(__file__)
